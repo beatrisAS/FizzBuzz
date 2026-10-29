@@ -1,0 +1,18 @@
+"""Paleta ANSI simples para o projeto FizzBuzz."""
+
+RESET = "\033[0m"
+NEGRITO = "\033[1m"
+
+ROXO = "\033[38;5;141m"
+CIANO = "\033[38;5;81m"
+VERDE = "\033[38;5;120m"
+AMARELO = "\033[38;5;221m"
+CINZA = "\033[38;5;245m"
+BRANCO = "\033[38;5;255m"
+
+TITULO = f"{NEGRITO}{ROXO}"
+FIZZ = f"{NEGRITO}{CIANO}"
+BUZZ = f"{NEGRITO}{AMARELO}"
+FIZZBUZZ = f"{NEGRITO}{VERDE}"
+NUMERO = BRANCO
+DETALHE = CINZA
